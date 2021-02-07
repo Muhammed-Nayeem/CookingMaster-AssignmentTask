@@ -8,6 +8,9 @@ a {
 ul {
   list-style: none;
 }
+h3 {
+  font-size: 22px!important;
+}
 body
 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,7 +32,8 @@ body
   align-items: center;
 }
 .logo-area a h4 {
-  font-size: 20px;
+  font-size: 20px!important;
+  color: #3B2D64;
 }
 .menu-area ul {
   display: flex;
@@ -74,4 +78,28 @@ body
 }
 #Error-Msg {
   display: none;
+}
+#foods-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.single-food {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.single-food .foodMeal img {
+  width: 100%;
+  border-radius: 5px;
+}
+.single-food .foodMeal .foodName {
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+.modal-body img {
+  width: 100%;
 }
