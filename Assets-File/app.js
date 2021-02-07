@@ -32,11 +32,12 @@ const foodInfo = (food) => {
   <img src="${food.strMealThumb}" alt="Food Details">
   <h4>Food Name: ${food.strMeal}</h4>
   <h5>♀ Ingredients :</h5>
-  <ul class="listIngredients">
-    <li>>${food.strMeasure1}, ${food.strIngredient1}</li>
-    <li>>${food.strMeasure2}, ${food.strIngredient2}</li>
-    <li>>${food.strMeasure3}, ${food.strIngredient3}</li>
-    <li>>${food.strMeasure4}, ${food.strIngredient4}</li>
+  <ul class="listIngredients" style="list-style: disc">
+    <li>${food.strMeasure1}, ${food.strIngredient1}</li>
+    <li>${food.strMeasure2}, ${food.strIngredient2}</li>
+    <li>${food.strMeasure3}, ${food.strIngredient3}</li>
+    <li>${food.strMeasure4}, ${food.strIngredient4}</li>
+    <li>${food.strMeasure5}, ${food.strIngredient5}</li>
     </ul>
   `;
 };
